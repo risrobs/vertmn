@@ -19,44 +19,17 @@ html {
   background: $background;
 }
 
+.container{
+  display: flex;
+  flex-direction: column;
+}
+
 .main {
-  height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 10rem;
-  flex-flow: column;
-}
-h1,
-h2 {
-  font-family: Lato;
+  background-color: blue;
+  height: 100%;
 }
 
-div {
-  display: flex;
-  flex-direction: row;
-  align-items: flex-end;
-}
-
-.test1 {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  background-color: #3fd819;
-}
-
-.test2 {
-  background-color: rgb(122, 117, 202);
-  margin: 5px;
-  width: 100%;
-  display: block;
-}
-.container {
-  position: relative;
-  display: inline-block;
-  flex-direction: column;
-}
-.navbar-custom {
+.toolbar{
+  background-color: brown;
   height: 80px;
-  position: fixed;
 }
